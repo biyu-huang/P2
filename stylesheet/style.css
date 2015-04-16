@@ -1,0 +1,58 @@
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: red;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+li:nth-of-type(1), li:nth-of-type(2), li:nth-of-type(3), li:nth-of-type(4){
+  font-size: 20px;
+  color: white;
+}
+
+main {
+
+  background: orange;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
